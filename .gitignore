@@ -1,0 +1,51 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded third-party data and caches
+workspace/raw_public/
+raw_public/
+external_repos/
+
+# Training caches, checkpoints, and raw run logs
+workspace/**/_cache/
+workspace/runs/
+workspace/logs/
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+/workspace/
+/raw_public/
+/runs/
+/checkpoints/
+/_cache/
+/external_repos/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.zip
+__pycache__/
+*.pyc
