@@ -1,8 +1,6 @@
-# GDPRBench Fresh Graph-Unlearning Implementation
+# GDPR-GU Bench Implementation
 
 This file gives the complete start-to-finish workflow: environment, corpus/NPZ generation, validation, matched controls, main unlearning runs, membership-inference/locality/efficiency summaries, optional extended datasets, and optional official-repository comparison setup.
-
-## What is implemented
 
 ### Backbones
 
